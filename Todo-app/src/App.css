@@ -1,0 +1,33 @@
+.app-container {
+  width: 400px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  background-color: #131316;
+  border-radius: 8px;
+  min-height: 50vh;
+  min-width: 40vh;
+  box-shadow: 0 0 20px rgba(2,2,2,0.4);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.app-child{
+
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+button {
+  margin-left: 10px;
+}
