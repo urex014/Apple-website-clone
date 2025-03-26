@@ -10,7 +10,7 @@ export default function AddTodo({ fetchTodos }: AddTodoProps) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!text.trim()) return;
+    if (!text.trim()){ return};
     await fetch('http://localhost:5000/todos', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
