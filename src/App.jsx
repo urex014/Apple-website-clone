@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "./components/navbar"
+import Hero from "./components/hero"
+import Highlight from "./components/highlights"
 
 export default function App(){
   return(
     <div>
-      <h1 className="text-3xl font-bold underline">hello world</h1>
+      <main className="bg-black">
+      <Navbar/>
+      <Hero/>
+      <Highlight/>
+      </main>
     </div>
   )
 }
