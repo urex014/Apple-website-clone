@@ -71,7 +71,7 @@ export default function Model(){
                         }}
                         eventSource={document.getElementById('root')}
                         >
-                            <view.port />
+                            {/* <view.port /> */}
                         </canvas>
 
                     </div>
